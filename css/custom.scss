@@ -51,7 +51,7 @@
                 text-align: left;
             }
             li.bigbottom {
-                margin-bottom: 1em;
+                margin-bottom: .6em;
             }
             img {
                 border: 4px solid #75787B;
@@ -328,4 +328,17 @@ mark .hljs-string {
 
 .unprocessed {
     display: inline-block;
+}
+
+figcaption .job {
+    font-size: 75%;
+}
+
+section .bold {
+    font-weight: bold;
+}
+
+section .highlighted {
+    background: yellow;
+    color: maroon;
 }
